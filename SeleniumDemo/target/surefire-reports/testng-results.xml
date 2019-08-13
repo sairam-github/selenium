@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="PtcHomeTest" duration-ms="35055" started-at="2019-08-13T19:07:07Z" finished-at="2019-08-13T19:07:42Z">
+  <suite name="PtcHomeTest" duration-ms="24980" started-at="2019-08-13T19:41:24Z" finished-at="2019-08-13T19:41:49Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="35055" started-at="2019-08-13T19:07:07Z" finished-at="2019-08-13T19:07:42Z">
+    <test name="Command line test" duration-ms="24980" started-at="2019-08-13T19:41:24Z" finished-at="2019-08-13T19:41:49Z">
       <class name="PtcHomeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:PtcHomeTest@3f3afe78]" name="setup" is-config="true" duration-ms="12891" started-at="2019-08-13T19:07:07Z" finished-at="2019-08-13T19:07:20Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PtcHomeTest@3f3afe78]" name="setup" is-config="true" duration-ms="11678" started-at="2019-08-13T19:41:24Z" finished-at="2019-08-13T19:41:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testHomeNavigation()[pri:0, instance:PtcHomeTest@3f3afe78]" name="testHomeNavigation" duration-ms="20560" started-at="2019-08-13T19:07:20Z" finished-at="2019-08-13T19:07:41Z">
+        <test-method status="PASS" signature="testHomeNavigation()[pri:0, instance:PtcHomeTest@3f3afe78]" name="testHomeNavigation" duration-ms="12519" started-at="2019-08-13T19:41:36Z" finished-at="2019-08-13T19:41:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeNavigation -->
-        <test-method status="PASS" signature="closeSetup()[pri:0, instance:PtcHomeTest@3f3afe78]" name="closeSetup" is-config="true" duration-ms="1532" started-at="2019-08-13T19:07:41Z" finished-at="2019-08-13T19:07:42Z">
+        <test-method status="PASS" signature="closeSetup()[pri:0, instance:PtcHomeTest@3f3afe78]" name="closeSetup" is-config="true" duration-ms="756" started-at="2019-08-13T19:41:48Z" finished-at="2019-08-13T19:41:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSetup -->

@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -15,6 +15,8 @@ public class PtcHomeTest {
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver", "C:\\WebDev\\workspace\\Selenium\\Drivers\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
 		driver.get("https://www.ptc.com/");
 	}
 	
@@ -32,6 +34,10 @@ public class PtcHomeTest {
 		
 		WebElement home = driver.findElement(By.className("logo"));
 		home.click();
+		
+		String title = driver.getTitle();
+		String expectedTitle = "Digital Transformation Solutions to Unlock the Value of IIoT | PTC";
+		Assert.assertEquals(title, expectedTitle);
 		
 		try {
 			Thread.sleep(5000);
