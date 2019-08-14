@@ -26,7 +26,7 @@ public class PtcHomeTest {
 		contactUs.click();
 		
 		try {
-			Thread.sleep(6000);
+			Thread.sleep(7000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
